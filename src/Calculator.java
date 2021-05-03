@@ -1,9 +1,9 @@
 
 class Calculator {
     public static void main(String[] args) throws Exception {
+
         System.out.println("Input");
         RomNumber.syncOper();
-        System.out.println("Output");
         RomNumber.confStrOne();
         RomNumber.confStrTwo();
         RomNumber.numberOneInt();
@@ -14,6 +14,7 @@ class Calculator {
         RangeInteger.rangeInt4();
         RomNumber.result();
         RomNumber.stringResult(RomNumber.result());
+        System.out.println("Output");
         RomNumber.resultinfo();
     }
 }

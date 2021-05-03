@@ -175,22 +175,22 @@ public class RomNumber {
             str = Integer.toString(result());
             return str;
         } else {
-//            while (a >= 100) {
-//                str += "C";
-//                a -= 100;
-//            }
-//            while (a >= 90) {
-//                str += "XC";
-//                a -= 90;
-//            }
-//            while (a >= 50) {
-//                str += "L";
-//                a -= 50;
-//            }
-//            while (a >= 40) {
-//                str += "XL";
-//                a -= 40;
-//            }
+            while (a >= 100) {
+                str += "C";
+                a -= 100;
+            }
+            while (a >= 90) {
+                str += "XC";
+                a -= 90;
+            }
+            while (a >= 50) {
+                str += "L";
+                a -= 50;
+            }
+            while (a >= 40) {
+                str += "XL";
+                a -= 40;
+            }
             while (a >= 10) {
                 str += "X";
                 a -= 10;
